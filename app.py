@@ -24,7 +24,7 @@ import streamlit as st
 from PIL import Image
 
 # Replace with your actual API key
-GOOGLE_API_KEY = "AIzaSyDNk8VoIypEpIaAq_wBY3N1PKuXP6LGk9M"
+GOOGLE_API_KEY = "AIzaSyB9tafFmmSV71Br9-5t21k_sP0W-OlxbnY"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 def get_gemini_response(input_prompt, image_data, user_input):
